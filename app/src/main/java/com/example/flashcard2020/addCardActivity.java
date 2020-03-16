@@ -14,11 +14,11 @@ public class addCardActivity extends AppCompatActivity {
         setContentView(R.layout.activity_add_card);
 
         findViewById(R.id.cancelCard).setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Intent intent = new Intent(AddCardActivity.this, MainActivity.class);
-                AddCardActivity.this.startActivity(intent);
-            }
-        });
+        @Override
+    public void onClick(View v) {
+        Intent intent = new Intent(addCardActivity.this, MainActivity.class);
+        addCardActivity.this.startActivity(intent);
     }
-}
+});
+        }
+        }
