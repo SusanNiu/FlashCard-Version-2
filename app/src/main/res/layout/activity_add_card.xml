@@ -17,5 +17,29 @@
         android:layout_marginRight="48dp"
         android:layout_marginBottom="45dp"
         android:src="@drawable/ic_cancelcard" />
+    <EditText
+        android:id="@+id/newQuestion"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:layout_margin="20dp"
+        android:hint="Type your question here!"
+        />
+
+    <EditText
+        android:id="@+id/newAnswer"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="325dp"
+        android:hint="Type your answer here!" />
+
+    <ImageView
+        android:id="@+id/saveBtn"
+        android:layout_width="64dp"
+        android:layout_height="66dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="45dp"
+        android:src="@drawable/ic_savebtn" />
+
 
 </RelativeLayout>
