@@ -5,7 +5,21 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".MainActivity">
-
+    <ImageView
+        android:id="@+id/nextCardButton"
+        android:layout_width="wrap_content"
+        android:layout_height="61dp"
+        android:layout_above="@+id/addCard"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginStart="307dp"
+        android:layout_marginLeft="307dp"
+        android:layout_marginEnd="35dp"
+        android:layout_marginRight="35dp"
+        android:layout_marginBottom="40dp"
+        android:background="@drawable/nextcard_ic" />
     <TextView
         android:id="@+id/flashcard_question"
         android:layout_width="match_parent"
@@ -14,7 +28,6 @@
         android:textSize="40sp"
         android:textStyle="bold"
         android:gravity="center"/>
-
     <TextView
         android:id="@+id/flashcard_answer"
         android:layout_width="match_parent"
@@ -24,7 +37,6 @@
         android:textSize="40sp"
         android:textStyle="bold"
         android:visibility="invisible" />
-
     <ImageView
         android:id="@+id/addCard"
         android:layout_width="57dp"
@@ -37,6 +49,6 @@
         android:layout_marginEnd="39dp"
         android:layout_marginRight="39dp"
         android:layout_marginBottom="18dp"
-        android:src="@drawable/ic_add_card" />
-
+        android:src="@drawable/ic_add_card"
+        android:contentDescription="@string/contentDescforNextCard" />
 </RelativeLayout>
