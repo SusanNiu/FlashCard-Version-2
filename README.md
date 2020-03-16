@@ -57,7 +57,7 @@ User should be able to create multiple cards and browse through their deck of cr
 
 ### App Walk-though
 
-<img src="YOUR_GIF_URL_HERE" width=200><br>
+<img src="https://github.com/SusanNiu/Flashcard2020New/blob/master/Flashcard2020Lab3.gif" width=200><br>
 
 ## Required
 - [X] User can create a card and still see their created card when the app is relaunched.
