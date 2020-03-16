@@ -35,7 +35,7 @@ Add a Save button that will dismiss 'Add Card Screen' and return to the Main Act
 ### App Walk-though
 
 
-<img src="YOUR_GIF_URL_HERE" width=200><br>
+<img src="https://github.com/SusanNiu/Flashcard2020New/blob/master/Flashcard2020Lab2Update.gif" width=200><br>
 
 
 ## Required
