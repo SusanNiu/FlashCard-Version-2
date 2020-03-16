@@ -24,25 +24,35 @@ public class MainActivity extends AppCompatActivity {
             }
 
         });
+        findViewById(R.id.flashcard_answer).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                findViewById(R.id.flashcard_answer).setVisibility(View.INVISIBLE);
+                findViewById(R.id.flashcard_question).setVisibility(View.VISIBLE);
+
+            }
+
+        });
         findViewById(R.id.addCard).setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(MainActivity.this, addCardActivity.class);
-                MainActivity.this.startActivityForResult(intent,100);
+                startActivityForResult(intent,100);
                 Log.d("OnClickListener", "User has clicked on addCard.");
             }
 
             });
+
 }
 
     @Override
     protected void onActivityResult(int requestCode, int resultCode, Intent data) {
         super.onActivityResult(requestCode, resultCode, data);
-        if (requestCode == 100) {
-            String string1=data.getExtras().getString("string1");
-            String string2=data.getExtras().getString("string2");
-            ((TextView) findViewById(R.id.flashcard_question)).setText(string1);
-            ((TextView) findViewById(R.id.flashcard_answer)).setText(string2);
+        if (requestCode == 100 && resultCode == RESULT_OK) {
+            String newQuestion=data.getExtras().getString("question");
+            String newAnswer=data.getExtras().getString("answer");
+            ((TextView) findViewById(R.id.flashcard_question)).setText(newQuestion);
+            ((TextView) findViewById(R.id.flashcard_answer)).setText(newAnswer);
         }
     }
 
