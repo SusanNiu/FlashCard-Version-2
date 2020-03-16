@@ -8,7 +8,7 @@ Build in logic to show the answer side when the card is tapped
 
 ### App Walk-though
 
-<img src="https://github.com/SusanNiu/Flashcard2020/blob/master/Flashcard2020Lab2.gif" width=200><br>
+<img src="https://github.com/SusanNiu/Flashcard2020New/blob/master/Flashcard2020Lab2.gif" width=200><br>
 
 
 ## Required
