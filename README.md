@@ -31,12 +31,9 @@ Build in logic to show the answer side when the card is tapped
 ### App Description
 Add a Save button that will dismiss 'Add Card Screen' and return to the Main Activity where the user can see the card they just created
 
-
 ### App Walk-though
 
-
 <img src="https://github.com/SusanNiu/Flashcard2020New/blob/master/Flashcard2020Lab2Update.gif" width=200><br>
-
 
 ## Required
 - [X] User can click on a ‘+’ button that takes the user to new ‘Add Card Screen’
@@ -51,3 +48,24 @@ Add a Save button that will dismiss 'Add Card Screen' and return to the Main Act
 - [ ] A notification is shown if the card was created successfully
 - [ ] User can also enter multiple choice answers when creating a card
 - [ ] App is further styled and customized!
+
+
+## Lab 3
+
+### App Description
+User should be able to create multiple cards and browse through their deck of created cards
+
+### App Walk-though
+
+<img src="https://github.com/SusanNiu/Flashcard2020New/blob/master/Flashcard2020Lab3.gif" width=200><br>
+
+## Required
+- [X] User can create a card and still see their created card when the app is relaunched.
+- [X] User can create muliple cards and browse through all created cards
+
+## Optional
+- [ ] User can delete a card and no longer see it in their deck anymore
+- [ ] Flashcards are shown in random order instead of the order they were created in
+- [ ] User can edit a card and see the edit saved when they browse through their deck of cards
+- [ ] User can create flashcards with multiple answers and be able to browse through cards with multiple choice answers shown
+
