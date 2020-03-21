@@ -24,18 +24,22 @@
         android:id="@+id/flashcard_question"
         android:layout_width="match_parent"
         android:layout_height="237dp"
+        android:background="#b9eead"
         android:text="@string/question"
         android:textSize="40sp"
         android:textStyle="bold"
-        android:gravity="center"/>
+        android:textColor="#8b9df6"
+        android:gravity="center" />
     <TextView
         android:id="@+id/flashcard_answer"
         android:layout_width="match_parent"
         android:layout_height="237dp"
+        android:background="#ddf4ff"
         android:gravity="center"
         android:text="@string/answer"
         android:textSize="40sp"
         android:textStyle="bold"
+        android:textColor="#8cd889"
         android:visibility="invisible" />
     <ImageView
         android:id="@+id/addCard"
