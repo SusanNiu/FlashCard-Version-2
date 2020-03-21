@@ -75,12 +75,7 @@ User should be able to create multiple cards and browse through their deck of cr
 Animations and Styling
 
 ### App Walk-though
-
-
-<img src="" width=200><br>
-
-`TODO://` In the User stories section below, add an `x` between the `-[ ]` like this `- [x]` for any user story you complete. (☝️ Remove this paragraph after after checking off user stories)
-
+<img src="https://github.com/SusanNiu/Flashcard2020New/blob/master/Flashcard2020Lab4.gif" width=200><br>
 ## Required
 - [X] User sees a transition animation when going from the main screen to the add card screen.
 - [X] User sees a reveal animation when the flashcard is tapped and the answer is shown
